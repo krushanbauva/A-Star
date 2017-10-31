@@ -12,5 +12,8 @@ $ g++ a-star.cpp -o a-star `pkg-config opencv --cflags --libs`
 ```
 ## Run
 The compilation process will create a binary file with the name 'a-star' which can be easily run by `./a-star`
+## Example
+This repository contains an image 'a-star-image.jpg' on which you can test this program.
 ## Things to be careful about :
-Make sure your image is named as 'a-star-image.jpg' and is saved in the current directory itself.
+This program is not restricted to the provided image only. You can use this program to find the path in whatever situation possible given that the image matches the description given above (consists of green,red,black and white patches only).
+And also make sure that your image is named as 'a-star-image.jpg' and is saved in the current directory itself.
